@@ -1,0 +1,21 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(3, 3, 91);
+}
+.text {
+  display: flex;
+  position: absolute;
+  bottom: 0;
+  margin-left: 310px;
+  transition: all 3s;
+  display: none;
+}
+.card {
+  position: relative;
+}
+
+.card:hover .text {
+  display: block;
+}
