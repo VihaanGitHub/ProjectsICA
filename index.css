@@ -1,0 +1,34 @@
+.form {
+  background-color: red;
+  flex: 7px;
+  height: 5px;
+  border: solid black;
+  margin-top: 30px;
+  align-items: center;
+}
+body {
+  background-color: hotpink;
+  display: flex;
+}
+.two {
+  display: none;
+  border: 2px solid black;
+  width: 203px;
+}
+.one:hover ~ .two {
+  display: block;
+  border: 2px solid black;
+}
+.one {
+  border: 2px solid black;
+  width: 120px;
+  height: 35px;
+  padding: 7px;
+}
+
+.three {
+  display: none;
+}
+.one:hover ~ .three {
+  display: block;
+}
